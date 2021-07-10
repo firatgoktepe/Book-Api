@@ -1,4 +1,4 @@
-# Develop and Deploy a Scalable RESTful API using Node.js & Mongo.
+# Develop and Deploy a Scalable REST API using Node.js & Mongo.
 
 ## Full Crud Operations:
 
