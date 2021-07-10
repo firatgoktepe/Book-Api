@@ -1,5 +1,5 @@
 {
-  "name": "api-books",
+  "name": "book-api",
   "version": "1.0.0",
   "description": "Example of an API for books",
   "main": "index.js",
