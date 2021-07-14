@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
-const cors = require('cors');
-const mongoose = require('mongoose');
+const cors = require("cors");
+const mongoose = require("mongoose");
 
 app.use(express.urlencoded({extended: true})); 
 app.use(express.json());
@@ -27,7 +27,7 @@ mongoose.connect('mongodb+srv://firatgoktepe:123456**@testtodoapidb.yxqi0.mongod
 
 require("./controllers/book-controller")(app);
 
-app.listen(process.env.PORT || 3000, () => {
-    console.log("Server is running @3000 ...")
+app.listen(process.env.PORT || 5000, () => {
+    console.log("Server is running @5000 ...")
     }
 );
